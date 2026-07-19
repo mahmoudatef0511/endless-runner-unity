@@ -363,8 +363,10 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # ======================
-# Unity generated files
+# Unity
 # ======================
+
+# Unity generated folders
 
 [Ll]ibrary/
 [Tt]emp/
@@ -373,25 +375,24 @@ FodyWeavers.xsd
 [Bb]uilds/
 [Ll]ogs/
 UserSettings/
+.utmp/
 
-# Unity generated solution/project files
+# Unity build artifacts
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# Unity/Visual Studio generated files
 *.csproj
 *.unityproj
 *.sln
 *.slnx
 
-# IDE folders
+# IDE settings
 .vscode/
+.vsconfig/
 .idea/
-.vsconfig
 
-# Unity crash reports
-sysinfo.txt
-
-# Unity build outputs
+# Build outputs
 *.apk
 *.aab
 *.unitypackage
-
-# Burst generated files
-[Bb]urstDebugInformation_DoNotShip/
